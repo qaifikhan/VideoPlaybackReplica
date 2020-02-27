@@ -1,0 +1,38 @@
+.VideoCard {
+    width: calc(25% - 20px);
+    box-shadow: 2px 2px 4px #ccc;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.PlaylistCard {
+    width: 100%;
+    margin: 16px;
+}
+
+.PlaylistCard:first-of-type {
+    margin-top: 0px;
+}
+
+.VideoCard > a {
+    color: rgb(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.VideoThumbnail {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.VideoTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+}

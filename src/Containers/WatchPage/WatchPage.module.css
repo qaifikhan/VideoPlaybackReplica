@@ -1,0 +1,25 @@
+.MainContainer {
+    width: 100%;
+    padding: 6% 12%;
+    box-sizing: border-box;
+}
+
+.PlayerSection {
+    width: 100%;
+    display: flex;
+}
+
+.Player {
+    width: 100%;
+    height: 450px;
+}
+
+.VideoDetails {
+    width: 70%;
+}
+
+.PlaylistSection {
+    width: 30%;
+    border-left: 1px solid #ccc;
+    margin-left: 16px;
+}
